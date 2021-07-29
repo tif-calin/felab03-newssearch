@@ -1,7 +1,7 @@
 # lab03: **news search**
 ## project goals
-- [ ] search for news
-- [ ] display list of news items
+- [x] search for news
+- [x] display list of news items
 - [ ] snapshot test for news item display
 - [ ] behavior test for news search
 - [ ] mock the api in a test

@@ -5,7 +5,7 @@ import {
   Switch,
   Redirect
 } from 'react-router-dom';
-import { NewsSearch } from '../../containers/NewsSearch';
+import NewsSearch from '../../containers/NewsSearch';
 
 export default function App() {
   return <main className="App">
@@ -17,10 +17,6 @@ export default function App() {
         )}/>
 
         <Route path="/news" render={routerProps => 
-          <NewsSearch {...routerProps}/>
-        }/>
-
-        <Route path="/news/:id" render={routerProps => 
           <NewsSearch {...routerProps}/>
         }/>
 
