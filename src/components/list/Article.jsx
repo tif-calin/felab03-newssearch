@@ -1,9 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Article.css';
 
 const Article = props => {
-  return <div className="Article">
-    {props.article.title}
+  console.log(props.article);
+  return <div className={styles.Article}>
+    <span>{props.article.title}</span> <span>|| {props.article.author}</span>
+    <p>{props.article.description}</p>
   </div>;
 };
 
