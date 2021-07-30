@@ -1,8 +1,7 @@
 import React from 'react';
 import { 
   render, 
-  cleanup, 
-  waitForElementToBeRemoved 
+  cleanup
 } from '@testing-library/react';
 import App from './App';
 
