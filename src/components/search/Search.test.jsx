@@ -6,7 +6,7 @@ describe('Search component', () => {
   afterEach(() => cleanup());
 
   it('renders Search', () => {
-    const { asFragment } = render(<Search />);
+    const { asFragment } = render(<Search query="" setQuery={() => true}/>);
     expect(asFragment()).toMatchSnapshot();
   });
   
