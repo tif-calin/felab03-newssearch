@@ -6,12 +6,12 @@ import { fetchArticles } from '../services/apiNews.js';
 const NewsSearch = () => {
   const [articles, setArticles] = React.useState([]);
   const [loading, setLoading] = React.useState(true);
-  const [query, setQuery] = React.useState('florida');
+  const [query, setQuery] = React.useState('kahnawake');
 
   useEffect(async () => {
     setLoading(true);
     fetchArticles(query)
-      .then(news => setArticles(news))
+      .then(news => setArticles(news || []))
       .then(() => setLoading(false))
     ;
   }, [query]);
