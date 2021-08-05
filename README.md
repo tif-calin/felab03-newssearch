@@ -2,7 +2,7 @@
 ## project goals
 - [x] search for news
 - [x] display list of news items
-- [ ] snapshot test for news item display
+- [x] snapshot test for news item display
 - [ ] behavior test for news search
 - [ ] mock the api in a test
 
