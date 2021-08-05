@@ -14,8 +14,6 @@ const NewsSearch = () => {
       .then(news => setArticles(news || []))
       .then(() => setLoading(false))
     ;
-
-    return () => setArticles([]);
   }, [query]);
 
   return <div className="NewsSearch">

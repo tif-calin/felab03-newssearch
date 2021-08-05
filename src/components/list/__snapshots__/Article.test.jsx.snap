@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Article component renders Article 1`] = `
+<DocumentFragment>
+  <div
+    class="Article"
+  >
+    <span>
+      Florida man is just misunderstood
+    </span>
+     
+    <span>
+      || Florida Man Blog
+    </span>
+    <p>
+      He's actually not a bad guy at all.
+    </p>
+  </div>
+</DocumentFragment>
+`;
