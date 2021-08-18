@@ -3,11 +3,14 @@ import PropTypes from 'prop-types';
 import styles from './Article.css';
 
 const Article = props => {
-  console.log(props.article);
-  return <div className={styles.Article}>
+  
+  return <li 
+    className={styles.Article}
+    data-testid="article"
+  >
     <span>{props.article.title}</span> <span>|| {props.article.author}</span>
     <p>{props.article.description}</p>
-  </div>;
+  </li>;
 };
 
 Article.propTypes = {

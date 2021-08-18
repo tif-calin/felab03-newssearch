@@ -2,8 +2,9 @@
 
 exports[`Article component renders Article 1`] = `
 <DocumentFragment>
-  <div
+  <li
     class="Article"
+    data-testid="article"
   >
     <span>
       Florida man is just misunderstood
@@ -15,6 +16,6 @@ exports[`Article component renders Article 1`] = `
     <p>
       He's actually not a bad guy at all.
     </p>
-  </div>
+  </li>
 </DocumentFragment>
 `;
