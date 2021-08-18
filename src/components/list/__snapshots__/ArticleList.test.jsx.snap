@@ -4,6 +4,7 @@ exports[`ArticleList component renders ArticleList 1`] = `
 <DocumentFragment>
   <ul
     class="ArticleList"
+    role="list"
   />
 </DocumentFragment>
 `;
